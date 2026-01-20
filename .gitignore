@@ -1,0 +1,47 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Medii virtuale (Virtual Environments) ---
+# Nu urca niciodată bibliotecile instalate; GitHub le va instala din requirements.txt
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Configurații și Secrete ---
+# Dacă folosești un fișier local pentru teste, acesta NU trebuie să ajungă pe GitHub
+.env
+.flaskenv
+secrets.py
+local_settings.py
+Mail code.txt
+
+# --- IDE (PyCharm / VS Code) ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Log-uri ---
+*.log
